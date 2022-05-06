@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LibP2P.Utilities" Version="1.1.0" />
+    <PackageReference Include="Multiformats.Address" Version="1.1.1" />
+    <PackageReference Include="Multiformats.Base" Version="2.0.2" />
+    <PackageReference Include="Multiformats.Hash" Version="1.5.0" />
+    <PackageReference Include="protobuf-net" Version="3.1.0" />
+    <PackageReference Include="Secp256k1.Native" Version="0.1.23" />
+    <PackageReference Include="Secp256k1.Net" Version="0.1.55" />
+  </ItemGroup>
+
+</Project>
